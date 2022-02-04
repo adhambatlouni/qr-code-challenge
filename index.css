@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background:hsl(212, 45%, 89%);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 20rem;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 4.77%);
+}
+
+.code img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.code h1{
+    font-size: 1.3rem; 
+    text-align: center;   
+    font-weight: 700;
+    margin: 1rem 2rem;
+}
+
+.card p{
+    opacity: 70%;
+    font-size: 0.9rem; 
+    text-align: center;   
+    font-weight: 400;
+    
+}
